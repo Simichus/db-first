@@ -1,0 +1,19 @@
+
+CARS DATA
+
+CAR
+id: INT - PRIMARY KEY(NOT_NULL, UNIQUE, AUTO_INCREMENT)
+brand: VARCHAR(50) - NOT_NULL
+model: VARCHAR(50) - NOT_NULL
+doors: TINYINT - NULL
+seats: TINYINT - NULL
+displacement: INT - NOT_NULL
+horse_power: INT - NULL
+power_in_watt: INT - NOT_NULL
+for_newly_licensed: BOOL[TINYINT] - NOT_NULL, DEFAULT(0)
+weight: SMALLINT - NOT_NULL
+lenght: FLOAT(2, 2) - NOT_NULL
+widht: FLOAT(1, 2) - NOT_NULL
+height: FLOAT(1, 2) - NOT_NULL
+tyres: CHAR(8) //"[inches(2)]-[tread(3)]-[pressure(3)]
+drive_side: CHAR(2) // LF-RT
